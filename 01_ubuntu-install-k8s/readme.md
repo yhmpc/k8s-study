@@ -445,7 +445,7 @@ vim calico.yaml
 # Cluster type to identify the deployment type
 - name: CLUSTER_TYPE
   value: "k8s,bgp"
-# 配置网卡 - 以下为新增内容
+# 配置网卡 - 以下为新增内容, 注意: interface=自己的网卡名称
 - name: IP_AUTODETECTION_METHOD
   value: "interface=ens32"
 
